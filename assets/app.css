@@ -129,3 +129,18 @@ footer a{text-decoration:none}footer a:hover{color:#fff;text-decoration:underlin
 @media(max-width:860px){.vis{height:480px}}
 .phones,.stage{display:none}
 .vis{background:radial-gradient(ellipse 80% 55% at 50% 0%,rgba(45,212,191,.09),transparent 70%),var(--bg2)}
+
+/* ===== Canva-Bilder unverändert ===== */
+.cv{background:#EEF1F4;border-radius:26px;overflow:hidden;box-shadow:0 24px 60px rgba(0,0,0,.45);width:min(340px,100%);margin:0 auto}
+.cv img{display:block;width:100%;height:auto}
+.hero-vis{display:flex;justify-content:center}
+.hero-vis .cv{width:min(360px,100%)}
+.pair{display:flex;gap:20px;justify-content:center}
+.pair .cv{width:min(250px,48%);margin:0}
+@media(max-width:860px){.pair .cv{width:46%}}
+.feat>.cv,.feat>.pair{justify-self:center}
+.vis,.stage3{display:none}
+.cv{width:min(300px,100%)}
+.hero-vis .cv{width:min(330px,100%)}
+.pair .cv{width:min(230px,48%)}
+.feat{padding:44px 0}
